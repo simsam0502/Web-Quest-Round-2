@@ -1,0 +1,10 @@
+
+// Prakhar 
+You are an employee of a popular retail supermarket selling a vast range of products including groceries, dairy products, bakery, beverages and other products from domestic and imported brands. Due to the pandemic, the company has decided to go online to increase the sales and you are given the task to make an ecommerce website (frontend) for the same.
+Make a responsive website which have the following:
+Home page of the site with company name 
+Product page (containing name and price of each product) 
+ About Us page to describe your company's business 
+ Footer (with company's important details as well as Contact nos. and address) 
+ Think of an idea to urge people to get vaccinated (For example - 2 kg apples free for customers who are vaccinated)
+
