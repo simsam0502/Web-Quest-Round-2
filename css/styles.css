@@ -30,6 +30,11 @@ h2{
     font-size:3rem !important;
     line-height: 50px !important;
 }
+@media (max-width:450px) {
+    h2{
+        font-size: 2rem !important;
+    }
+}
 .carousel-item{
     padding:3% 7%;
 }
