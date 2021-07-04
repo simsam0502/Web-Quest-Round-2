@@ -16,14 +16,17 @@ body{
     justify-content: space-around;
     align-items: center;
 }
-#features{
+#features,#products{
     margin:3%;
 }
 .feature-card{
     width:15rem;
     text-align:center;
 }
-h4{
+i:hover{
+    color:#164b1a;
+}
+h1,h2,h3,h4{
     font-weight: 500;
 }
 h2{
@@ -32,9 +35,22 @@ h2{
 }
 @media (max-width:450px) {
     h2{
-        font-size: 2rem !important;
+        font-size: 1.5rem !important;
     }
 }
 .carousel-item{
     padding:3% 7%;
+}
+
+.teal img{
+    height:150px;
+    width:150px;
+}
+p img{
+    width:25px;
+    height:25px;
+}
+div img{
+    height:100px;
+    width:100px;
 }
