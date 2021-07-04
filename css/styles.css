@@ -23,3 +23,13 @@ body{
     width:15rem;
     text-align:center;
 }
+h4{
+    font-weight: 500;
+}
+h2{
+    font-size:3rem !important;
+    line-height: 50px !important;
+}
+.carousel-item{
+    padding:3% 7%;
+}
