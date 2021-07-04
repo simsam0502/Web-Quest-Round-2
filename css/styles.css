@@ -1,0 +1,25 @@
+/* body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  } */
+body{
+    
+}
+.flexbox{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+#features{
+    margin:3%;
+}
+.feature-card{
+    width:15rem;
+    text-align:center;
+}
