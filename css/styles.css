@@ -7,8 +7,13 @@
   main {
     flex: 1 0 auto;
   } */
-body{
-    
+.text{
+    display: inline-block;
+    width:40%;
+}
+#landing img{
+    height:40%;
+    width:40%;
 }
 .flexbox{
     display:flex;
@@ -33,11 +38,7 @@ h2{
     font-size:3rem !important;
     line-height: 50px !important;
 }
-@media (max-width:450px) {
-    h2{
-        font-size: 1.5rem !important;
-    }
-}
+
 .carousel-item{
     padding:3% 7%;
 }
@@ -46,6 +47,11 @@ h2{
     height:150px;
     width:150px;
 }
+.teal img:hover{
+    height:160px;
+    width:160px;
+    transform:rotate(-5deg);
+}
 p img{
     width:25px;
     height:25px;
@@ -53,4 +59,17 @@ p img{
 div img{
     height:100px;
     width:100px;
+}
+div img:hover{
+    height:108px;
+    width:108px;
+}
+/* Responsiveness for mobile view */
+@media (max-width:450px) {
+    .text{
+        width:95%;
+    }
+    h2{
+        font-size: 1.5rem !important;
+    }
 }
