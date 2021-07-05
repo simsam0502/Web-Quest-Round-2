@@ -73,3 +73,99 @@ div img:hover{
         font-size: 1.5rem !important;
     }
 }
+#about-text{
+    text-align:center;
+    margin:12%;
+}
+body {
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 50%;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 5% 8%;
+}
+
+.grid-item {
+    border-radius: 1rem;
+    padding: 5%;
+    margin:5%;
+    color:white;
+}
+
+.grid-item:hover{
+    padding:7%;
+    margin:3%;
+}
+
+.grid-item:nth-child(6n-5) {
+    background-color: #cddc39 ;
+}
+
+.grid-item:nth-child(6n-4) {
+    background-color: #388e3c;
+}
+
+.grid-item:nth-child(6n-3) {
+    background-color: #8bc34a ;
+}
+
+.grid-item:nth-child(6n-2) {
+    background-color: #25A853;
+}
+
+.grid-item:nth-child(6n-1) {
+    background-color: #558b2f;
+}
+
+.grid-item:nth-child(6n) {
+    background-color: #64dd17 ;
+}
+
+.icon {
+    height: 100px;
+    width: 100px;
+}
+
+.title {
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.description {
+    font-family: 'Lato', sans-serif;
+}
+
+@media only screen and (max-width: 850px) {
+    .grid-container {
+        grid-template-columns: auto auto;
+        grid-gap: 2%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .grid-container {
+        grid-template-columns: auto;
+        grid-gap: 1%;
+        margin-bottom:50%;
+    }
+}
+.brand-logo img{
+    height:40px;
+    width:40px;
+}
