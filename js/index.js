@@ -9,3 +9,13 @@ $('.carousel.carousel-slider').carousel({
     indicators: true
   });
 
+// Modal JQuery
+$(document).ready(function(){
+    $('.modal').modal();
+  });
+
+// Scroll Reveal JS Plugin
+ScrollReveal().reveal('.grid-item', {
+    interval: 250,
+    reset: true
+  });
